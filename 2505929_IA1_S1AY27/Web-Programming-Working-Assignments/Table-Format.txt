@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+ 	<head> 
+    	<title>Third lab session</title>
+ 	</head>
+
+       <body>
+       
+        <table border="4" bgcolor="yellow" height="50%" width="50%" align="center" cellspacing="8" cellpadding="15" >
+          <tr>
+            <th>Month</th>
+            <th>Expenses</th>
+          </tr>
+
+         <tr align="center">
+           <td>Jan</td>
+           <td>45000</td>
+         </tr>
+
+         <tr align="center">
+           <td align="right"> Feb </td>
+           <td>51239</td>
+         </tr>
+ 
+       </table>
+       </br> 
+       </br>
+
+
+       <table border="4" height="40%" width="40%">
+        <tr>
+          <th width="15%"> <img src="rose.jpg" alt="Picture not found" height="20%" width="20%" /> </th>
+          <th colspan="2"> <a href="https://www.utech.edu.jm" target="_self" > Utech Home page </a>  </th>
+        </tr>
+
+        <tr>
+           <th rowspan="2"> 
+            <div>
+            <h2> Working with Images </h2>
+            <p>This is my <q>first lab session</q> in <mark>Web Programming</mark> Class ... &#128514; &#128516; &#9748; &#169;</p>
+            </div> 
+	    </th>
+
+           <th>D</th>
+           <th rowspan="3">
+             <table  bgcolor="yellow"  >
+
+          <tr>
+           <th>Month</th>
+           <th>Expenses</th>
+         </tr>
+         <tr align="center">
+           <td>Jan</td>
+           <td>45000</td>
+         </tr>
+
+         <tr align="center">
+           <td align="right">Feb</td>
+           <td>51239</td>
+         </tr>
+        </table>
+
+
+          </th>
+       </tr>
+       <tr>
+         <th>E</th>
+      </tr>
+       <tr>
+        <th>G</th>
+        <th>H</th>
+      </tr>
+ 
+      </table>
+     </body>
+
+</html> 

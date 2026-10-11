@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS-LAB 1</title>
+	<script type="text/javascript">
+
+<h1>JavaScript Programming is easy</h1>
+
+name=window.prompt("Please enter your first name");
+document.write(name + "says:JavaScript Programming is Easy");
+
+name=window.prompt("Please enter your first name");
+color = window.prompt("Please enter the colour of the message");
+fSize = window.prompt("Please enter the font size of the message");
+document.write(name + "<p style='color:" + color + "; font-size:" + fSize + "px;'>" + "says: JavaScript Programming is Easy</p>");
+
+
+(a)
+function findMinimum (num1, num2, num3)
+{
+	return Math.min(num1, num2, num3);
+}
+
+(b)
+
+num1 = window.prompt("Enter num 1");
+num2 = window.prompt("Enter num 2");
+num3 = window.prompt("Enter num 3");
+
+if(num1 > num2 && num1 > num3){
+	document.write(num1 + "<p> is the greatest. </p>");
+}else if(num2 > num1 && num2 > num3){
+	document.write(num2 + "<p> is the greatest. </p>");
+}else{
+	document.write(num3 + "<p> is the greatest. </p>");
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html> <!--The doctype statements indicates the markup language of the document-->
+<html>
+	<head> <!--The head element provides information and instructions to the browser about the document.-->
+		<title> Lab 3 - Forms</title> <!--The contents of the title elements appear in the browser title bar.-->
+	</head>
+	<body>
+
+	<form name="fi" action="test.php" method="get/post">
+	 <label> Student Name: </label>
+	<input=type="text" name="tb1" maxlength="6" minlength="3" placeholder="Type your fullname" value="Test" required /> <br/><br/>
+	
+	<label> Student ID: </label>
+	<input=type "number" name="tb2" maxlength="6" minlength="3" placeholder="Type your ID#" required /> <br/><br/>
+
+<fieldset>
+<legend> Student Info </legend>
+	<label> Student Password: </label>
+	<input=type "password" name="tb3" placeholder="Type your password" /> <br/><br/>
+
+	<label> Student DOB: </label>
+	<input=type "date" name="tb4" /> <br/><br/>
+
+	<label> Student Email: </label>
+	<input=type "email" name="tb5" /> <br/><br/>
+
+	<input=type "month" name="tb4" />
+	<input=type "tel" name="tb4" />
+	<input=type "time" name="tb4" />
+	<input=type "month" name="tb4" />
+	<input=type "file" name="tb4" />
+
+	<label> Student Gender: </label>
+	<input type="radio" name="tb6" /> Male
+	<input type="radio" name="tb6" /> Female  <br/><br/>
+	</fieldset> <br/>
+
+<fieldset>
+	<label> Select the Semester: </label>
+	<input type="radio" name="tb7" checked/> SEM1
+	<input type="radio" name="tb7" /> SEM2  <br/><br/>
+
+	<label> Select the modules: </label>
+	<input type="checkbox" name="tb8" checked/> Web Programming
+	<input type="checkbox" name="tb9" /> Java  
+	<input type="checkbox" name="tb10" /> C++  <br/><br/>
+	
+	<label> Select your Major: </label>
+	<select>
+	  <option> Animation</option>
+	  <option selected> A.I</option>
+	  <option> Data Analysis</option>
+	  <option> Digital Marketing
+
+
+	<input type="Submit" value="Submit" />
+	<input type="Clear" value="Clear" />
+	<input type="Submit" value="Submit" />
+
+
+
+
+	</form>
+      </body>
+</html>
